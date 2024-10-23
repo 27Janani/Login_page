@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #000428 50%, #fff 50%);
+  }
+  
+  .container {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .container .login-form {
+    width: 50%;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .container .login-form .log {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container .login-form input[type="text"],
+  .container .login-form input[type="email"],
+  .container .login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 3px solid black; /* Only bottom border */
+    outline: none; /* Remove default outline */
+  }
+  
+  input:focus {
+    border-bottom: 3px solid #1e23bc; /* Change color on focus */
+  }
+  
+  .remember {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+  }
+  
+  .container .login-form .checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .container .login-form .checkbox p {
+    margin: 0;
+  }
+  
+  .container .login-form button {
+    width: 80%;
+    padding: 12px;
+    background-color: #1e23bc;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .loginbutton {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container .login-form .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .container .login-form .social-icons i {
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .container .image-section {
+    width: 50%;
+    background: url('log.jpg') center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
